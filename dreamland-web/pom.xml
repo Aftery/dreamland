@@ -25,12 +25,12 @@
         <!-- mybatis版本号 -->
         <mybatis.version>3.2.8</mybatis.version>
         <!-- mysql驱动版本号 -->
-        <mysql-driver.version>5.1.29</mysql-driver.version>
+        <mysql-driver.version>5.1.48</mysql-driver.version>
         <!-- log4j日志包版本号 -->
         <slf4j.version>1.7.18</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
         <!--spring-security版本号-->
-        <spring-security.version>4.1.3.RELEASE</spring-security.version>
+        <spring-security.version>4.2.16.RELEASE</spring-security.version>
         <!--spring-data-redis版本号-->
         <spring.data.redis.version>1.7.1.RELEASE</spring.data.redis.version>
     </properties>
@@ -291,7 +291,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>18.0</version>
+            <version>29.0-jre</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
@@ -310,7 +310,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
-            <version>5.2.4.Final</version>
+            <version>6.1.6.Final</version>
         </dependency>
 
         <!--mail 相关依赖-->
